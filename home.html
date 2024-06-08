@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Home</title>
+</head>
+
+<body>
+    <nav class="navbar nav-bar-dark navbar-expand-sm bg-transparent">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">SMART LOGIN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item border border-warning rounded-pill px-2"
+                        onclick="logout()">
+                        <a class="nav-link text-decoration-none" href="#">Logout</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!--  -->
+    <div class="container my-5 py-5 d-flex justify-content-center align-items-center">
+        <div class="text-center d-inline-block p-5 glow rounded-pill">
+            <h1>Ya 100 Welcome ya <span id="userName">User</span> </h1>
+        </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/home.js"></script>
+</body>
+
+</html>
